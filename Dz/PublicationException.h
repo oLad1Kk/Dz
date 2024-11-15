@@ -9,6 +9,7 @@ protected:
 public:
 	PublicationException();
 	PublicationException(string name);
+	~PublicationException(){}
 
 	void setName(string name);
 	string getName()const;
