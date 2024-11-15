@@ -10,7 +10,7 @@ protected:
 public:
 	PublicationException();
 	PublicationException(string name);
-	~PublicationException(){}
+	virtual ~PublicationException(){}
 
 	void setName(string name);
 	string getName()const;
