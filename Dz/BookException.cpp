@@ -23,6 +23,6 @@ string BookException::getMessage() const
 
 void BookException::Message() const
 {
-	cout << "Name: " << name;
-	cout << "Message: " << message;
+	cout << "Name: " << name << endl;
+	cout << "Message: " << message << endl;
 }
