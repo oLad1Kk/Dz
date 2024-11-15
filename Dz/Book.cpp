@@ -34,8 +34,18 @@ void Book::show() const
 
 void Book::makeDescription()
 {
-	cout << Publication::getName() << endl;
-	cout << Publication::getAuthor() << endl;
-	cout << Publication::getPublicationYear << endl;
-	cout << resume << endl;
+	string name, author, resume;
+	int publicatonYear;
+	cout << endl << "Name: ";
+	cin >> name;
+	setName(name);
+	cout <<endl<< "Author: ";
+	cin >> author;
+	setAuthor(author);
+	cout << endl << "Publicaton Year: ";
+	cin >> publicatonYear;
+	setPublicationYear(publicatonYear);
+	cout << endl << "Resume: ";
+	cin >> resume;
+	setResume(resume);
 }
