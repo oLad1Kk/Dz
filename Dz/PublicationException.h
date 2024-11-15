@@ -17,3 +17,4 @@ public:
 	
 	virtual void Message()const = 0;
 };
+trulala
