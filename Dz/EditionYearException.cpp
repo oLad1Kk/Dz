@@ -23,6 +23,6 @@ int EditionYearException::getYear() const
 
 void EditionYearException::Message() const
 {
-	cout << "Name: " << name;
-	cout << "Year: " << year;
+	cout << "Name: " << name << endl;
+	cout << "Year: " << year << endl;
 }
