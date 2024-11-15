@@ -21,8 +21,6 @@ public:
 	int getPublicationYear()const;
 
 	virtual void show()const = 0;
-
+	virtual void makeDescription() = 0;
 };
-
-I am trying to change master
 
