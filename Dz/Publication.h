@@ -24,7 +24,8 @@ public:
 	virtual void makeDescription() = 0;
 };
 
-I am trying to change Vladyslav
+
+
 
 
 
