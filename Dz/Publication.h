@@ -23,6 +23,7 @@ public:
 	virtual void show()const = 0;
 	virtual void makeDescription() = 0;
 };
+hjkvhgvhjbj
 
 
 
