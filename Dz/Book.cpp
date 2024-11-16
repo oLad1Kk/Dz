@@ -28,7 +28,7 @@ void Book::show() const
 {
 	cout << "Name: " << Publication::getName() << endl;
 	cout << "Author: " << Publication::getAuthor() << endl;
-	cout << "Publicaton Year: " << Publication::getPublicationYear << endl;
+	cout << "Publicaton Year: " << Publication::getPublicationYear() << endl; 
 	cout << "Resume: " << resume << endl;
 }
 
