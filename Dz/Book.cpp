@@ -8,7 +8,7 @@ Book::Book()
 Book::Book(string name, string author, int publicatonYear, string resume):Publication(name, author, publicatonYear)
 {
 	if (resume == "")
-		throw new BookException("Resume: ", "absent");
+		throw new BookException("Resume ", "absent");
 	this->resume = resume;
 }
 
@@ -20,7 +20,7 @@ string Book::getResume() const
 void Book::setResume(string resume)
 {
 	if (resume == "")
-		throw new BookException("Resume: ", "absent");
+		throw new BookException("Resume ", "absent");
 	this->resume = resume;
 }
 
